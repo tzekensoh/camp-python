@@ -19,7 +19,7 @@ basic.show_string("Am I a preteen? " + str(isPreteen))
 # Math: must use ** and % to come up with 333
 # e.g. # (2**10 + 309) % 1000
 magicNumber = 1+1 
-basic.show_string(magicNumber)
+basic.show_number(magicNumber)
 
 # List and Loops
 favoriteAnimals = ['giraffe', 'zebra', 'lion', 'panda']
