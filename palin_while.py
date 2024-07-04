@@ -1,4 +1,5 @@
 # Adapted from https://www.w3resource.com/java-exercises/recursive/java-recursive-exercise-4.php
+# convert recursion logic to iterative loop
 
 def isPalindrome(str) :
     strLength = len(str)
