@@ -2,6 +2,13 @@ from microbit import *
 import utime
 
 # Initialize UART with correct pins
+# Connect the Fingerprint Sensor to the micro:bit
+# Using the UART (TX/RX) pins:
+
+# VCC → 3.3V (micro:bit)
+# GND → GND (micro:bit)
+# TX (Sensor) → RX (micro:bit, Pin 1)
+# RX (Sensor) → TX (micro:bit, Pin 0)
 uart.init(baudrate=57600, tx=pin0, rx=pin1)
 
 def send_command(command):
